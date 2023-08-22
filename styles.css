@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.sobre {
+    text-align: center;
+}
+.sobre h1 {
+    font-size: 5rem;
+    color: #3668A8;
+}
+.sobre p {
+    font-size: 1.5rem;
+    width: 35vw;
+    color: #19314F;
+}
+.hab {
+    text-align: center;
+}
+.hab ul {
+    list-style: none;
+    font-size: 1.5rem;
+    color: #19314F;
+    text-align: center;
+}
+.hab h2 {
+    font-size: 3rem;
+    color: #3668A8;
+}
+.hab img {
+    width: 1.5vw;
+}
+.css img {
+    width: 2vw;
+}
+.reactStyled img {
+    width: 2vw;
+}
